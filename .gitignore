@@ -22,3 +22,8 @@ _testmain.go
 *.exe
 *.test
 *.prof
+!.gitkeep
+/.idea
+*.exe~
+cert.pem
+key.pem
