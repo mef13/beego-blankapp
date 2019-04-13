@@ -1,13 +1,14 @@
 # beego-blankapp 
-beego-blankapp это шаблон на основе beego с применением некоторых технологий.
+beego-blankapp is a beego based template with some libs integrations.
 
 
 ### Tech
- - Авторизация на основе beego сессий
- - Хеширование пароля bcrypt
+ - Authorization based on beego sessions
+ - Passwords hashed by bcrypt
  - ReactJS
  - Websocket
  - Casbin
+ - Sentry for Go
  
  
 ### Installation
@@ -15,18 +16,19 @@ beego-blankapp это шаблон на основе beego с применени
     go get github.com/casbin/casbin
     go get golang.org/x/crypto/bcrypt
     go get github.com/gorilla/websocket
+    go get github.com/getsentry/raven-go
 
 
 ### Authorization
-Пользователи и хешированные пароли хранятся в conf/users.conf.
+Users and hashed password in conf/users.conf.
 
-Получение хеша нового пароля: 
+Get hash from new password: 
 ```sh
 $ go run helpers/bcrypt/bcrypt.go newpassword
 ```
 
 
 ### Todos
- - Add Sentry
- - Хранение пароля в PostgreSQL
+ - Add Sentry for React
+ - Save users in PostgreSQL
 
