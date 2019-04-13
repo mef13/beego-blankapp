@@ -5,7 +5,7 @@ import (
 	_ "beego-blankapp/routers"
 	"github.com/astaxie/beego"
 	"github.com/casbin/casbin"
-	"iptelcrm/helpers/authSession"
+	"beego-blankapp/helpers/authSession"
 )
 
 func main() {

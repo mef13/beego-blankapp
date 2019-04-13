@@ -43,7 +43,7 @@ import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/context"
 	"github.com/casbin/casbin"
-	"iptelcrm/helpers/authSession"
+	"beego-blankapp/helpers/authSession"
 )
 
 // NewAuthorizer returns the authorizer.

@@ -2,8 +2,8 @@ package controllers
 
 import (
 	"github.com/astaxie/beego"
-	"iptelcrm/helpers/authSession"
-	"iptelcrm/models/auth"
+	"beego-blankapp/helpers/authSession"
+	"beego-blankapp/models/auth"
 )
 
 type LoginController struct {
